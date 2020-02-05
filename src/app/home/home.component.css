@@ -1,0 +1,49 @@
+header
+{
+    background-image: url(/assets/images/bc-blood.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;;
+    background-size:cover;
+    width:100%;
+    height: calc(100vh - 60px)
+
+}
+
+header .overlay
+{
+    background:rgba(42, 2, 2, 0.85);
+    width:100%;
+    height:100%
+}
+
+select.form-control.my-2{
+    background: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header .for-width
+{
+    width:50% 
+}
+
+option
+{
+    color:black
+}
+
+header .btn
+{
+    font-weight: bold;
+}
+
+
+
+@media (max-width:768px)
+{
+    header .for-width
+    {
+        width:100% 
+    }    
+}

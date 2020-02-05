@@ -1,0 +1,91 @@
+footer
+{
+    background-color:black
+}
+
+footer ul li{
+    margin-bottom:10px
+}
+
+footer .title h4{
+    color:#FFF;
+    font-weight:bold;
+
+
+}
+
+footer .title hr
+{
+    border:2px dashed white;
+    width:80px;
+    margin:0
+}
+
+footer ul li a{
+    color:#BBB;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom:10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;    
+}
+
+footer ul li a:hover{
+    color:white
+}
+
+footer .form-control
+{  
+   background:none;
+   color:white
+}
+
+footer textarea
+{  
+   background:none;
+   color:white;
+   resize: none;
+}
+
+footer .logo
+{
+    font-size:50px
+}
+
+
+
+@media (max-width:700px)
+ {
+    footer ul
+    {
+    text-align:center;
+    margin:10px auto 
+
+ }
+
+ footer .title
+ {
+     margin:10px auto !important;
+     text-align:center !important
+ } 
+
+ footer .title hr
+ {
+     margin:10px auto 40px
+ }
+
+ footer .logo
+{
+    font-size:40px !important
+}
+
+}
+@media (max-width:1000px)
+{
+    footer .logo
+    {
+        font-size:30px
+    }   
+}
