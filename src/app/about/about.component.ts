@@ -7,11 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  
-  constructor() {
 
-
-   }
+ 
+  values = '';
+  print(value: string) {
+    this.values = value ;
+  }  
 
   ngOnInit() {
 

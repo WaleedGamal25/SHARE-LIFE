@@ -11,5 +11,10 @@ export class DonorComponent implements OnInit {
 
   ngOnInit() {
   }
+  
 
+}
+
+export class NgbdPaginationJustify {
+  page = 4;
 }

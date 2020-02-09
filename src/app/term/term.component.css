@@ -1,0 +1,27 @@
+.title
+{
+    margin-top:50px
+}
+
+.title h1{
+    width:50%;
+    font-weight:bold;
+    font-size: 55px;
+    margin:40px auto 30px
+}
+
+.hr-tit
+{
+    border:3px dashed black;
+    width:140px;
+}
+
+
+@media (max-width:768px)
+{
+    .title h1{
+        width:90%;
+        font-weight:bold;
+        font-size: 45px;
+    }
+}
